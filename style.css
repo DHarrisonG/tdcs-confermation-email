@@ -76,11 +76,30 @@ body {
 hr {
     border: 1px solid #f94743;
     width: 100%;
-    margin: 10px 0px;
+    margin: 15px 0px 40px 0px;
 }
 
 
 
 .logo-box > img {
     max-width: 100%;
+}
+
+
+.items{
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.item-info {
+    margin-left: 10px;
+}
+
+.totals{
+    font-family: 'Ubuntu', sans-serif;
+    width:100%
+}
+
+.totals-amount{
+    text-align: end;
 }
